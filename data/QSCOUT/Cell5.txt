@@ -1,0 +1,28 @@
+initial_populations = np.array([1, 0, 0])  # populations of emitters in initial state
+times = np.linspace(0.01, 3, 51)  # Jaqal doesn't like time=0 for some reason...
+
+N = 3  # number of emitters
+g = 2  # coupling
+kappa = 5  # cavity loss
+
+num_RC = 10 # number of RC circuits with pauli twirls
+sim_probs = []
+
+if emulator == True:
+    for t in times:
+        theta = thetas(N, g, kappa, initial_populations, t)
+        jaqal_circ = qmarina(thetas=theta)
+        print(generate_jaqal_program(jaqal_circ))
+        sim_result = run_jaqal_circuit(jaqal_circ)
+        sim_probs.append(sim_result.subcircuits[0].probability_by_str)
+    #sim_results[i] = sim_probs
+    np.save("N=3_probabilities_sim", sim_probs)
+else:
+    for t in times:
+        theta = thetas(N, g, kappa, initial_populations, t)
+        jaqal_circ = qmarina(thetas=theta)
+        #print(generate_jaqal_program(jaqal_circ))
+        exp_result = run_jaqal_circuit(expand_subcircuits(jaqal_circ))
+        exp_probs = exp_result.subcircuits[0].probability_by_int
+        print(exp_probs)
+        np.save("N=3_probabilities_exp_time_step_%d"%t, exp_probs)
