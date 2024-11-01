@@ -589,15 +589,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.42592444"
-     inkscape:cx="262.95744"
-     inkscape:cy="270.00094"
-     inkscape:window-width="1408"
-     inkscape:window-height="643"
+     inkscape:zoom="0.68816194"
+     inkscape:cx="541.29701"
+     inkscape:cy="369.09917"
+     inkscape:window-width="1440"
+     inkscape:window-height="761"
      inkscape:window-x="0"
      inkscape:window-y="25"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="g1">
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1"
+     showgrid="false">
     <inkscape:page
        x="0"
        y="0"
@@ -960,13 +961,13 @@
        id="path107"
        d="m 3975.43,1208.32 h 1372.73 v 407.191 H 3975.43 Z"
        style="fill:#bd8bff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(0.13333333,0,0,-0.13333333,0,588)"
+       transform="matrix(0.12605979,0,0,-0.13333333,32.909294,588)"
        clip-path="url(#clipPath108)" />
     <path
        id="path109"
        d="M 5872.62,626.641 H 7536.8 v 407.191 H 5872.62 Z"
        style="fill:#bd8bff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(0.13333333,0,0,-0.13333333,0,588)"
+       transform="matrix(0.12039566,0,0,-0.13333333,86.025607,588)"
        clip-path="url(#clipPath110)" />
     <path
        id="path111"
@@ -974,12 +975,6 @@
        style="fill:#bd8bff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(0.13333333,0,0,-0.13333333,0,588)"
        clip-path="url(#clipPath112)" />
-    <path
-       id="path113"
-       d="m 3977.46,1266.37 h 1370 v 280 h -1370 z"
-       style="fill:#bd8bff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(0.13333333,0,0,-0.13333333,0,588)"
-       clip-path="url(#clipPath114)" />
     <text
        id="text114"
        xml:space="preserve"
@@ -1658,13 +1653,13 @@
        transform="translate(-136.66912,-58.10864)"><tspan
          x="677.10787"
          y="465.40084"
-         id="tspan4">R<tspan
+         id="tspan13">R<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan1">Y</tspan>(2θ<tspan
+   id="tspan10">Y</tspan>(2θ<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan2">2</tspan>(t,θ<tspan
+   id="tspan11">2</tspan>(t,θ<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan3">1</tspan>))</tspan></text>
+   id="tspan12">1</tspan>))</tspan></text>
     <text
        xml:space="preserve"
        id="text204"
@@ -1672,14 +1667,14 @@
        transform="translate(162.0632,-10.791604)"><tspan
          x="638.41057"
          y="495.28365"
-         id="tspan9">R<tspan
+         id="tspan18">R<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan5">Y</tspan>(2θ<tspan
+   id="tspan14">Y</tspan>(2θ<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan6">3</tspan>(t,θ<tspan
+   id="tspan15">3</tspan>(t,θ<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan7">2</tspan>,θ<tspan
+   id="tspan16">2</tspan>,θ<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan8">1</tspan>)</tspan></text>
+   id="tspan17">1</tspan>)</tspan></text>
   </g>
 </svg>
